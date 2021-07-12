@@ -10,3 +10,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
         form.reset();
     };
+
+    const form = document.querySelector("#new-item-form");
+    form.addEventListener("submit", handleFormSubmit);
+    const newButton = document.createElement("button");
+    newButton.textContent = "Delete";
+    const body = document.querySelector("body");
+    body.appendChild(newButton);
+
+    const handleDeleteSubmit = function (event) {
+        const filmlist = document.querySelector("#film-list");
+
+    };
