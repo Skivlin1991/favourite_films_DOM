@@ -22,3 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const filmlist = document.querySelector("#film-list");
 
     };
+    const deleteAllButton = document.querySelector("#delete-all");
+    deleteAllButton.addEventListener("click", handleDeleteSubmit);
+
+})
